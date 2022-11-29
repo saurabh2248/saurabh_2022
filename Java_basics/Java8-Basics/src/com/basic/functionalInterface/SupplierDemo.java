@@ -3,11 +3,20 @@ package com.basic.functionalInterface;
 
 import java.util.function.Supplier;
 
-public class SupplierDemo {
 
-	public static void main(String []args) {
-		  (t) -> System.out.println("Printing :"+ t);
-		    consumer.supply(5000);
+public class SupplierDemo implements Supplier<String>{
+
+	@Override
+	public String get() {
+		return "Hello World!";
 	}
 
+	
+	public static void main(String []args) {
+		Supplier<String> supplier = new SupplierDemo();
+		System.out.println(supplier.get());
+	}	
 }
+
+
+
