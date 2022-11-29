@@ -1,13 +1,13 @@
 package com.basic.functionalInterface;
 
-import java.util.function.Consumer;
+
+import java.util.function.Supplier;
 
 public class SupplierDemo {
 
 	public static void main(String []args) {
-		Consumer<Integer> consumer= (t) ->
-		    System.out.println("Printing :"+ t);
-		    consumer.accept(5000);
+		  (t) -> System.out.println("Printing :"+ t);
+		    consumer.supply(5000);
 	}
 
 }
