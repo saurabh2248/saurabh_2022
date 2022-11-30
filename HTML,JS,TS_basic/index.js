@@ -166,7 +166,25 @@ addNumbers1()
 
 
 /****************************************************************************************/
+//Abstraction
+function dogs(){
+    this.dogName="Lab"
+    throw new error("This is not a wild dog")
+}
+dogs.prototype.display = function(){
+    return "This dog brid is: "+this.dogName;
 
+}
+
+//constructor function
+function Animal(dogName){
+    this.dogName=dogName;
+}
+
+//create an object without using constructor
+Animal.prototype= Object.create(dogs.prototype);
+let tommy = new Animal("German shepherd");
+console.log(tommy.display())
 
 
 
