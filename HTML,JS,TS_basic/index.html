@@ -1,27 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn Basic HTML</title>
 </head>
+
 <body>
     <script>
-       var name ="Saurabh"
-       var age= 25;
-       var isGraduate=true;
-       var laptop;
-         laptop="Dell";
-       console.log(name);
+        var name = "Saurabh"
+        var age = 25;
+        var isGraduate = true;
+        var laptop;
+        laptop = "Dell";
+        console.log(name);
 
-       function alertUser(){
-           var favChips ="Lays Blue";
-           alert("This user loging in "+ favChips)
-       }
-       alertUser();
-       console.log(favChips);
+        function alertUser() {
+            var favChips = "Lays Blue";
+            console.log("This user loging in " + name)
+            alert("This user loging in " + name)
+        }
+        alertUser();
+        //console.log(favChips);
+
+        //if else if statement
+        function operators(num) {
+            if (num > 20) {
+                console.log("Number is grater than " + num);
+            } else if (num == 20) {
+                console.log("Number is equal to " + num);
+            } else {
+                console.log("Number is lesser than " + num);
+            }
+        operators(87);
+        }
+
+        function creditScore(score){
+            var creditLimit;
+            switch(score) {
+              case 800: creditLimit="above 1 lak";
+              break;
+              case 700: creditLimit="50,000 to 1,00,000";
+              break;
+              case 600: creditLimit="10,000 to 50,000";
+              break;
+              case 800: creditLimit="Not eligible";
+              break;
+              default:
+            }
+        creditScore(800);   
+        console.log(creditLimit);
+        }
 
     </script>
 </body>
+
 </html>
