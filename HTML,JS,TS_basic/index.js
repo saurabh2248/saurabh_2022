@@ -187,4 +187,3 @@ let tommy = new Animal("German shepherd");
 console.log(tommy.display())
 
 
-
