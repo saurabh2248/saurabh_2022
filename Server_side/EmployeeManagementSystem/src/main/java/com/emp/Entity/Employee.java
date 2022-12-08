@@ -5,6 +5,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+import org.springframework.data.relational.core.mapping.Column;
+
 @Entity
 public class Employee {	
 	
@@ -58,5 +60,8 @@ public class Employee {
 	public void setSalary(Integer salary) {
 		this.salary = salary;
 	}
+
+	
+	
 	
 }
