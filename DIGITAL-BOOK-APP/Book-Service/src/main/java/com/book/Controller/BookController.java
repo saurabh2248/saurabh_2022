@@ -6,7 +6,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PatchMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -46,4 +49,23 @@ public class BookController {
 	public List<Book> getAllBooks(){
 		return bookService.getAllBook();
 	}
+	
+	@GetMapping("/getByCategory/{category}")
+	public List<Book> getByCategory(@PathVariable String category){
+		List<Book> book = bookService.getBookByCategory(category);
+		return book;	
+	}
+	
+	@PatchMapping("/status/{bookID}")
+	public ResponseEntity<Book> updateStatus(@PathVariable Integer bookID, @RequestBody Book book ) {
+		return new ResponseEntity<Book>(bookService.chageBookStatus(book, bookID), HttpStatus.OK);
+	}
+	
+	@PutMapping("/updateBookDetails/{bookID}")
+	public ResponseEntity<Book> updateBookDetails(@PathVariable Integer bookID, @RequestBody Book book ) {
+		return new ResponseEntity<Book>(bookService.chageBookStatus(book, bookID), HttpStatus.OK);
+	}
+	
 }
+
+
