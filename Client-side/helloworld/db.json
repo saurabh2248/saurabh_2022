@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "firstname": "Emily",
+      "lastname": "Joseph",
+      "age": 50,
+      "email": "ekg@gmail.com",
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "firstname": "Steve",
+      "lastname": "Murphy",
+      "age": 50,
+      "email": "stevetva@gmail.com",
+      "id": 3
+    },
+    {
+      "firstname": "Nishant",
+      "lastname": "Gupta",
+      "age": 32,
+      "gender": "male",
+      "email": "nishant@email.com",
+      "id": 4
+    },
+    {
+      "firstname": "Saurabh",
+      "lastname": "Pratap",
+      "age": 42,
+      "gender": "male",
+      "email": "saurabh@email.com",
+      "id": 5
+    }
+  ]
+}
