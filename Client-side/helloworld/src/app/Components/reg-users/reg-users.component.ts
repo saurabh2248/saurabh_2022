@@ -22,6 +22,11 @@ export class RegUsersComponent implements OnInit {
     })
   }
 
+  sort(){
+    this.users.sort((users1, users2)=> {
+    return users1.age-users2.age;
+    })
+  }
   /**
    * 
    */

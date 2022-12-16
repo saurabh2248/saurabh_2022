@@ -22,7 +22,7 @@ export class UserService {
   }
 
   deleteUsers(user: any){
-    return this.http.delete(BASE_URL +"/"+user.id);
+    return this.http.delete(BASE_URL +"/" +user.id);
   }
 
   constructor(private http: HttpClient) {}
