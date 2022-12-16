@@ -20,10 +20,10 @@ public class Book {
 	private String author;
 	private String publisher;
 	private Date publishDate;
-	private Integer chapters;
+	private String content;
 	private boolean active;
 	public Book(Integer id, String logo, String title, String category, Long price, String author, String publisher,
-			Date publishDate, Integer chapters, boolean active) {
+			Date publishDate, String content, boolean active) {
 		super();
 		this.id = id;
 		this.logo = logo;
@@ -33,7 +33,7 @@ public class Book {
 		this.author = author;
 		this.publisher = publisher;
 		this.publishDate = publishDate;
-		this.chapters = chapters;
+		this.content = content;
 		this.active = active;
 	}
 	public Book() {
@@ -87,11 +87,12 @@ public class Book {
 	public void setPublishDate(Date publishDate) {
 		this.publishDate = publishDate;
 	}
-	public Integer getChapters() {
-		return chapters;
+
+	public String getContent() {
+		return content;
 	}
-	public void setChapters(Integer chapters) {
-		this.chapters = chapters;
+	public void setContent(String content) {
+		this.content = content;
 	}
 	public boolean isActive() {
 		return active;

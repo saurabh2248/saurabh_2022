@@ -1,6 +1,7 @@
 package com.book.Controller;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -50,20 +51,28 @@ public class BookController {
 		return bookService.getAllBook();
 	}
 	
+	@GetMapping("/getBookByBookID/{bookID}")
+	public Optional<Book> getByCategory(@PathVariable Integer bookID){
+		Optional<Book> book = bookService.getBookByBookID(bookID);
+		return book;	
+	}
+	
 	@GetMapping("/getByCategory/{category}")
 	public List<Book> getByCategory(@PathVariable String category){
 		List<Book> book = bookService.getBookByCategory(category);
 		return book;	
 	}
 	
+	
+	
 	@PatchMapping("/status/{bookID}")
 	public ResponseEntity<Book> updateStatus(@PathVariable Integer bookID, @RequestBody Book book ) {
 		return new ResponseEntity<Book>(bookService.chageBookStatus(book, bookID), HttpStatus.OK);
 	}
 	
-	@PutMapping("/updateBookDetails/{bookID}")
-	public ResponseEntity<Book> updateBookDetails(@PathVariable Integer bookID, @RequestBody Book book ) {
-		return new ResponseEntity<Book>(bookService.chageBookStatus(book, bookID), HttpStatus.OK);
+	@PutMapping("/updateBookDetails/{id}")
+	public ResponseEntity<Book> updateBookDetails(@PathVariable("id") Integer id, @RequestBody Book book ) {
+		return new ResponseEntity<Book>(bookService.updateBookDetails(book, id), HttpStatus.OK);
 	}
 	
 }

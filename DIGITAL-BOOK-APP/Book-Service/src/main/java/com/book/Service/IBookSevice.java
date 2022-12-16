@@ -11,9 +11,13 @@ public interface IBookSevice {
 
 	public List<Book> getAllBook();
 
-	public List<Book> getBookByCategory(String category);
+
 	public Book chageBookStatus(Book book, Integer bookID);
-	
+
 	public Book updateBookDetails(Book book, Integer bookID);
+
+	public Optional<Book> getBookByBookID(Integer bookID);
+	
+	public List<Book> getBookByCategory(String category);
 
 }

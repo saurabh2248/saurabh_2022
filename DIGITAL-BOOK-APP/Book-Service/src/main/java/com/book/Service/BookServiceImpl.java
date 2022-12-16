@@ -1,6 +1,7 @@
 package com.book.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -27,6 +28,12 @@ public class BookServiceImpl implements IBookSevice {
 
 	}
 
+	@Override
+	public Optional<Book> getBookByBookID(Integer bookID) {
+		return bookRepository.findById(bookID);
+
+	}
+	
 	@Override
 	public List<Book> getBookByCategory(String category) {
 		return bookRepository.findByCategory(category);
@@ -56,7 +63,7 @@ public class BookServiceImpl implements IBookSevice {
 		existingBook.setAuthor(book.getAuthor());
 		existingBook.setPublisher(book.getPublisher());
 		existingBook.setPublishDate(book.getPublishDate());
-		existingBook.setChapters(book.getChapters());
+		existingBook.setContent(book.getContent());
 		existingBook.setActive(book.isActive());
 
 		bookRepository.save(existingBook);
