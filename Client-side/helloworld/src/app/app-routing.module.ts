@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { PipeComponent } from './Component/pipe/pipe.component';
+import { PipeComponent } from './Components/pipe/pipe.component';
 import { HomeComponent } from './Components/home/home.component';
 import { RegUsersComponent } from './Components/reg-users/reg-users.component';
 import { UserformComponent } from './Components/userform/userform.component';

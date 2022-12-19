@@ -8,7 +8,7 @@ export class EllipsisPipe implements PipeTransform {
   transform(value: unknown, ...args: unknown[]):
     unknown {
 
-    if (value.length > 30) {
+    if (value.length> 30) {
       return value.substring(0, 30) + "....."
     }
   return value;
