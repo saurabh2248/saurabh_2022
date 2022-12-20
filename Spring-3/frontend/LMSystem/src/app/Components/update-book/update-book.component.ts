@@ -1,7 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, NgModule, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Book } from '../book';
-import { BookService } from '../book.service';
+import { Book } from 'src/app/Entity/book';
+import { BookService } from 'src/app/Services/book.service';
+import { NgModel } from '@angular/forms';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-update-book',
@@ -11,7 +13,7 @@ import { BookService } from '../book.service';
 export class UpdateBookComponent implements OnInit {
 
   id: number;
-  books: Book = new Book();
+  book = new Book();
   constructor(private bookService: BookService,
     private route: ActivatedRoute,
     private router: Router) { }
@@ -19,12 +21,12 @@ export class UpdateBookComponent implements OnInit {
   ngOnInit(): void {
     this.id = this.route.snapshot.params['id'];
     this.bookService.getBookById(this.id).subscribe(data => {
-      this.books = data;
+      this.book = data;
     }, error => console.log(error));
   }
 
   onSubmit() {
-    this.bookService.updateBook(this.id, this.books).subscribe(data => {
+    this.bookService.updateBook(this.id, this.book).subscribe(data => {
       this.goToBookList();
     },
       error => console.log(error));

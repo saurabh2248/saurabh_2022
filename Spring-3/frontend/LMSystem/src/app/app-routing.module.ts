@@ -1,10 +1,10 @@
 import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { BookDetailsComponent } from './book-details/book-details.component';
-import { BookListComponent } from './book-list/book-list.component';
-import { CreateBookComponent } from './create-book/create-book.component';
-import { HomeComponent } from './home/home.component';
-import { UpdateBookComponent } from './update-book/update-book.component';
+import { BookDetailsComponent } from './Components/book-details/book-details.component';
+import { BookListComponent } from './Components/book-list/book-list.component';
+import { CreateBookComponent } from './Components/create-book/create-book.component';
+import { HomeComponent } from './Components/home/home.component';
+import { UpdateBookComponent } from './Components/update-book/update-book.component';
 
 const newLocal = 'update-book/:id';
 const routes: Routes = [

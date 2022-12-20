@@ -1,29 +1,19 @@
-<!--Header-->
-<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
-    <ul class="navbar-nav">
+<!DOCTYPE html>
+<html lang="en">
 
-        <li class="nav-item">
-            <a routerLink="home" routerLinkActive="active" class="nav-link">Home</a>
-        </li>
-        <li class="nav-item">
-            <a routerLink="create-book" routerLinkActive="active" class="nav-link">Add Book</a>
-        </li>
-        <li class="nav-item">
-            <a routerLink="book" routerLinkActive="active" class="nav-link">All Books</a>
-        </li>
-    </ul>
-</nav>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
 
-
-<!--<h1 class="text-center">Liberary Managent System</h1> -->
-<div class="container">
-    <router-outlet></router-outlet>
-</div>
-
-
-<!--Footer-->
-<footer class="footer">
+<body>
     <div class="container">
-       <!--<span>Footer here!</span>--> 
+        <app-navbar></app-navbar>
+        <router-outlet></router-outlet>
+        <app-footer></app-footer>
     </div>
-</footer>
+</body>
+
+</html>

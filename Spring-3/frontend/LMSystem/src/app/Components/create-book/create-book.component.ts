@@ -1,8 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { Book } from '../book';
-import { BookService } from '../book.service';
+import { Book } from 'src/app/Entity/book';
+import { BookService } from 'src/app/Services/book.service';
 import { Router } from '@angular/router';
-
+import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
+import { NgForm } from '@angular/forms';
+ 
 @Component({
   selector: 'app-create-book',
   templateUrl: './create-book.component.html',
