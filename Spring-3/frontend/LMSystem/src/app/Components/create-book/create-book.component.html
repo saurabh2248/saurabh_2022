@@ -14,28 +14,28 @@
 
                     <div class="form-group">
                         <label>Book Genre</label>
-                        <input type="text" class="form-control" id="bookgener" [(ngModel)]="books.bookGenre"
+                        <input type="text" class="form-control" id="bookgener" required [(ngModel)]="books.bookGenre"
                             name="bookGenre" required>
                     </div>
                     <div class="form-group">
                         <label>Book Author</label>
-                        <input type="text" class="form-control" id="bookauthor" [(ngModel)]="books.bookAuthor"
+                        <input type="text" class="form-control" id="bookauthor" required [(ngModel)]="books.bookAuthor"
                             name="bookAuthor" required>
                     </div>
                     <div class="form-group">
                         <label>Book Price</label>
-                        <input type="number" class="form-control" id="bookprice" [(ngModel)]="books.bookPrice"
+                        <input type="number" class="form-control" id="bookprice" required [(ngModel)]="books.bookPrice"
                             name="bookPrice" required>
                     </div>
                     <div>
                         <label for="Avability">Avability: </label>
                         <label class="radio-inline">
                             <input type="radio" name="borrowedStatus" value="true" id="bookstatus"
-                                [(ngModel)]="books.borrowedStatus">Available
+                            required [(ngModel)]="books.borrowedStatus">Available
                         </label>
                         <label class="radio-inline">
                             <input type="radio" name="borrowedStatus" value="false" id="bookstatus"
-                                [(ngModel)]="books.borrowedStatus">Not Available
+                            required [(ngModel)]="books.borrowedStatus">Not Available
                         </label>
                     </div>
 
