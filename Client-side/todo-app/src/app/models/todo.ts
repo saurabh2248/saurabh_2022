@@ -1,3 +1,3 @@
-export class todo {
-    title : string="";
+export class Todo {
+    title:string=""
 }
