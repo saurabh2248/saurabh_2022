@@ -1,0 +1,43 @@
+.topnav {
+    overflow: visible;
+    background-color:#005ec9;
+    width: 100%;
+    margin: auto;
+    height: 75px;
+  }
+  .topnav ul {
+    list-style-type:none;
+  }
+  
+  img{
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    
+    text-decoration: none;  /*it will remove hyperlink(underline)*/
+    letter-spacing: 1;
+    margin-bottom:3px;
+    margin-left: 1px;
+    height: 50px;
+  }
+  
+  
+  .topnav a:hover{
+    font-size: x-large;
+    color:rgb(112, 198, 231);
+      }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+a{
+  color: black;
+}
