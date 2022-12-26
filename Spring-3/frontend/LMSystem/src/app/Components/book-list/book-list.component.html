@@ -1,15 +1,14 @@
 <h2 style="text-align: center; margin-top: 20px; font-size: 150%;">Books-List</h2>
-<table class="table table-striped">
-    <thead>
+<table id="customers" class="center">
+    <thead >
         <tr>
-
-            <th>bookID</th>
-            <th>bookName</th>
-            <th>bookAuthor</th>
-            <th>bookPrice</th>
-            <th>bookGenre</th>
-            <th>borrowedStatus</th>
-            <th>actions</th>
+            <th>Book_ID</th>
+            <th>Book_Name</th>
+            <th>Book_Author</th>
+            <th>Book_Price</th>
+            <th>Book_Genre</th>
+            <th>Avability</th>
+            <th>Actions</th>
         </tr>
     </thead>
     <tbody>
@@ -21,9 +20,9 @@
             <td>{{book.bookGenre}}</td>
             <td>{{book.borrowedStatus}}</td>
             <td>
-                <button (click) = "updateBook(book.bookID)" class="btn btn-info">Update</button>
-                <button (click) = "deleteBook(book.bookID)" class="btn btn-danger" style="margin-left: 10px;">Delete</button>
-                <button (click) = "bookDetails(book.bookID)" class="btn btn-primary" style="margin-left: 10px;">View</button>
+                <button (click) = "updateBook(book.bookID)" class="btn btn-info" style="margin-left: 30px;">Update</button>
+                <button (click) = "deleteBook(book.bookID)" class="btn btn-danger" style="margin-left: 30px;">Delete</button>
+                <button (click) = "bookDetails(book.bookID)" class="btn btn-primary" style="margin-left: 30px;">View</button>
             </td>
         </tr>
     </tbody>

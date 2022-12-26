@@ -1,6 +1,6 @@
 body{
   background-color: rgb(19, 141, 212);
-
+ 
 }
 .footer {
     padding: 20px;
@@ -9,6 +9,7 @@ body{
     margin-top: 20px;
     width: 100%;
     margin: auto;
+    
   }
   .social a{
       padding: 10px;
