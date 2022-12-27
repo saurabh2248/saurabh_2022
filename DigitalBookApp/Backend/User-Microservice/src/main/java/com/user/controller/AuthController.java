@@ -150,18 +150,7 @@ public class AuthController {
     }
     String info = ""+user.getUsername()+"Congratulations!, You have been registered with Digital book. Enjoy Learnings!";
     user.setRoles(roles);
-//    if(rolefordto.equals("ROLE_AUTHOR")) {
-//    	AuthorDto authorDto = new AuthorDto();
-//        authorDto.setAuthorName(user.getUsername());
-//        authorDto.setAuthorEmail(user.getEmail());
-//        authorDto.setAuthorPassword(user.getPassword());
-//        authorDto.setAuthorRole(rolefordto);
-//        HttpHeaders headers = new HttpHeaders();
-//    	headers.setContentType(MediaType.APPLICATION_JSON);
-//    	HttpEntity entity = new HttpEntity(authorDto,headers);
-//    	ResponseEntity<String> status = this.restTemplate.exchange(url, HttpMethod.PUT,entity, String.class);
-//    }
-   
+
 	userRepository.save(user);
     sendEmail.mailer(user.getEmail(),info);
 

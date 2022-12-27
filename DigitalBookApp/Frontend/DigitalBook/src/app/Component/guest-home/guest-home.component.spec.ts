@@ -8,9 +8,9 @@ describe('GuestHomeComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ GuestHomeComponent ]
+      declarations: [GuestHomeComponent]
     })
-    .compileComponents();
+      .compileComponents();
   });
 
   beforeEach(() => {

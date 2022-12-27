@@ -1,8 +1,3 @@
-
-
-
-
-
 .user {
     width: 90%;
     max-width: 560px;
@@ -17,7 +12,7 @@
 }
 
 .user__title {
-    
+
     margin-bottom: -10px;
     font-weight: 500;
     color: white;
@@ -42,45 +37,54 @@
     display: block;
     width: 100%;
     padding: 20px;
-    
+
     -webkit-appearance: none;
     border: 0;
     outline: 0;
     transition: 0.3s;
-    
-   
+
+
 }
 
 .btn {
     display: block;
     width: 100%;
     padding: 20px;
-    
+
     -webkit-appearance: none;
     outline: 0;
     border: 0;
     color: white;
 
     transition: 0.3s;
-    
-  
+
+
 }
 
 @keyframes NO {
-  from, to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
 
-  10%, 30%, 50%, 70%, 90% {
-    -webkit-transform: translate3d(-10px, 0, 0);
-    transform: translate3d(-10px, 0, 0);
-  }
+    from,
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
 
-  20%, 40%, 60%, 80% {
-    -webkit-transform: translate3d(10px, 0, 0);
-    transform: translate3d(10px, 0, 0);
-  }
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: translate3d(-10px, 0, 0);
+        transform: translate3d(-10px, 0, 0);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        -webkit-transform: translate3d(10px, 0, 0);
+        transform: translate3d(10px, 0, 0);
+    }
 }
 
 @keyframes arrive {
@@ -88,7 +92,7 @@
         opacity: 0;
         transform: translate3d(0, 50px, 0);
     }
-    
+
     100% {
         opacity: 1;
         transform: translate3d(0, 0, 0);

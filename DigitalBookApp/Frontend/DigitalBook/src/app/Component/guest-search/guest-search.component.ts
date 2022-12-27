@@ -39,7 +39,7 @@ export class GuestSearchComponent implements OnInit {
   }
   else
   {
-    this.message = "No Book Found!";
+    this.message = "Book not found!";
   }
   }
   alertMethod(){

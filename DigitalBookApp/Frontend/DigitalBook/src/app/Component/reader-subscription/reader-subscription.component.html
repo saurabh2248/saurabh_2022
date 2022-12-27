@@ -3,7 +3,6 @@
         style="background-color: rgb(62, 183, 240); color: rgb(14, 12, 11); text-align: center; padding-top: 5px;">
         Subscribed Books
     </h3>
-   
     <ul class="tilesWrap">
         <li *ngFor="let b of books,index as i">
             <h2><img style="" width="70px" height="105px" src="{{b.bookLogo}}"></h2>
@@ -15,9 +14,11 @@
                 {{b.bookCategory}}
             </p>
             <p><span>Price - </span>
-                {{b.bookPrice | currency:'EUR'}}
+                {{b.bookPrice | currency:'INR'}}
             </p>
             <p><button type="button" class="btn btn-success" (click)="readBook(b)">Read Book</button> &nbsp; <button type="button" class="btn btn-success" (click)="unsubscribeMethod(b)">Unsubscribe</button></p>
         </li>
     </ul>
+
+    
 </div>

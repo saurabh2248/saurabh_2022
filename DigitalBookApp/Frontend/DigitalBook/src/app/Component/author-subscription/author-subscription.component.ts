@@ -13,13 +13,13 @@ import { UserService } from 'src/app/service/user.service';
   styleUrls: ['./author-subscription.component.css']
 })
 export class AuthorSubscriptionComponent implements OnInit {
-  userId:number;
-  bookId:number;
-  subscriptionId:number;
-  message:string;
-  errorMessage='';
-  constructor(private router:Router,private userService: UserService,private tokenStorage:TokenStorageService,private subscriptionService:SubscriptionService) { }
-  books:Book[] = [];
+  userId: number;
+  bookId: number;
+  subscriptionId: number;
+  message: string;
+  errorMessage = '';
+  constructor(private router: Router, private userService: UserService, private tokenStorage: TokenStorageService, private subscriptionService: SubscriptionService) { }
+  books: Book[] = [];
   ngOnInit(): void {
     console.log(this.tokenStorage.getUser().id);
     const promise = this.subscriptionService.getSubscribedBook(this.tokenStorage.getUser().id);
@@ -29,35 +29,35 @@ export class AuthorSubscriptionComponent implements OnInit {
     });
   }
   subscribeEntity = new SubscribeEntity();
-  unsubscribeMethod(book:BookInfo){
-    this.userId= this.tokenStorage.getUser().id;
+  unsubscribeMethod(book: BookInfo) {
+    this.userId = this.tokenStorage.getUser().id;
     console.log(this.userId);
     console.log(book.bookId);
     this.subscribeEntity.userId = this.userId;
     this.subscribeEntity.bookId = book.bookId;
     this.subscriptionService.getSubscriptionId(this.subscribeEntity)
-    .subscribe(data => {
-      this.subscriptionId=Number(data);
-      console.log("subsId",this.subscriptionId);
-      const observable = this.subscriptionService.unsubscribeBook(this.subscriptionId);
-      observable.subscribe((response:string) => {
-        this.message = response;
-        alert("Book Unsubscribed, Check Email");
-        window.location.reload();
-      })
-    },
-    err => {
-      this.errorMessage=err.error.message;
-      alert("Unsubscription Failed after 24hrs ");
-    })
-    alert("Please check mail for Subscription status!");
+      .subscribe(data => {
+        this.subscriptionId = Number(data);
+        console.log("subsId", this.subscriptionId);
+        const observable = this.subscriptionService.unsubscribeBook(this.subscriptionId);
+        observable.subscribe((response: string) => {
+          this.message = response;
+          alert("Book unsubscription successful!");
+          window.location.reload();
+        })
+      },
+        err => {
+          this.errorMessage = err.error.message;
+          alert("Unsubscription failed after 24hrs");
+        })
+    alert("Subscription status send over mail!");
     this.router.navigate(['authordashboard']);
   }
 
-  readBook(b:Book){
+  readBook(b: Book) {
     console.log("bookContent");
-    window.open(String(b.bookContent),"_blank");
-    
+    window.open(String(b.bookContent), "_blank");
+
   }
-  
+
 }

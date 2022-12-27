@@ -9,11 +9,6 @@ import { NgForm } from '@angular/forms';
 })
 export class RegisterComponent implements OnInit {
   register = new RegisterUser();
-  // form: any = {
-  //   username: null,
-  //   email: null,
-  //   password: null,
-  // };
   isSuccessful = false;
   isSignUpFailed = false;
   errorMessage = '';
@@ -33,7 +28,7 @@ export class RegisterComponent implements OnInit {
         this.isSuccessful = true;
         this.isSignUpFailed = false;
         f.resetForm();
-        alert(" Registered Successfully!");
+        alert("Successfully registered!");
       },
       err => {
         this.errorMessage = err.error.message;

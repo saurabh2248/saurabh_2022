@@ -20,29 +20,7 @@ export class AuthorUpdateBookComponent implements OnInit {
  bookId:number;
  authorName:string
   onSubmit(f:NgForm){
-    // this.authorService.getbookIdbyTitle(String(this.book.bookTitle))
-    // .subscribe(data=>{
-      
-    //   this.bookId = Number(data);;
-    //   console.log("-----------------"+this.book.bookId);
-      
-    // })
-    // this.authorName = this.tokenStorage.getUser().username;
-
-    // this.authorService.getAuthorIdbyName(this.authorName)
-    // .subscribe((data:any) => {
-    //   console.log(data);
-    //   this.authorId = Number(data);
-    // })
-    // console.log("authorname"+this.authorId);
     
-    // //console.log("-----------------"+this.bookId);
-    // console.log(this.book.bookId);
-    // this.authorService.getAuthorNameByBookId(this.book.bookId)
-    // .subscribe(data => {
-    //   this.authorName = String(data);
-    //   console.log(this.authorName);
-    // })
   
     console.log(this.book.bookId);
     this.authorService.updateBook(this.book,this.book.bookId)
@@ -51,7 +29,7 @@ export class AuthorUpdateBookComponent implements OnInit {
     })
     console.log(this.book);
     f.resetForm();
-    alert("Book "+this.bookName+" Updated!");
+    alert("Book updation done!");
   }
 
 }

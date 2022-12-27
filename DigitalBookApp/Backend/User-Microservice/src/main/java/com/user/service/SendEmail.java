@@ -14,7 +14,7 @@ public class SendEmail {
 	public void mailer(String email,String info) {
 
         SimpleMailMessage msg = new SimpleMailMessage();
-        msg.setFrom("kumarrishabh201@gmail.com");
+        msg.setFrom("saurabh151p@gmail.com");
         msg.setTo(email);
         msg.setSubject("noReply");
         msg.setText("Greetings, "+info);

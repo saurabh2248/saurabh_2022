@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-const API_URL = 'http://localhost:8081/api/test/';
+const API_URL = 'http://ec2-44-203-75-234.compute-1.amazonaws.com:8081/api/test/';
 @Injectable({
   providedIn: 'root'
 })

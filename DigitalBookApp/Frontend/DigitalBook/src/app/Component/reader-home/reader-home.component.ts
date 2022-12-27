@@ -38,15 +38,15 @@ export class ReaderHomeComponent implements OnInit {
      this.subscriptionService.subscribeBook(this.subscribeEntity)
      .subscribe(data =>{
        if(data === null){
-        alert("Already Subscribed");
+        alert("Already Subscribed!");
        }
        else{
-       alert("Subscribed successfully, Subscription Id "+data);
+       alert("Subscribed successfully!");
        }
      },
      err => {
       this.errorMessage = err.error.message;
-      alert("Subscription failed");
+      alert("Subscription failed!");
      }
      )
   }

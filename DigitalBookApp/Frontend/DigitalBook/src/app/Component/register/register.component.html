@@ -1,31 +1,31 @@
-
 <div class="user">
   <header class="user__header">
-      <h1 class="user__title">Register</h1>
-      <h2 style="color:white; padding-top: 10px;">Please provide user details</h2>
+    <h1 class="user__title">Register</h1>
+    <h2 style="color:white; padding-top: 10px;">Please provide user details</h2>
   </header>
-  
-  <form class="form" name="myForm" #myForm="ngForm" #regForm='ngForm' (ngSubmit)='onSubmit(myForm)'>
-      <div class="form__group">
-        <input name="username" type="text" required
-        placeholder="Username" class="form__input" id="exampleInputPassword1"  [(ngModel)]="register.username">
-      </div>
-      
-      <div class="form__group">
-        <input name="password" type="text" required
-        placeholder="Password" class="form__input" id="exampleInputPassword1"  [(ngModel)]="register.password">
-      </div>
-      
-      <div class="form__group">
-        <input name="email" type="text" required
-        placeholder="Email" class="form__input" id="exampleInputPassword1"  [(ngModel)]="register.email">
-      </div>
 
-      <div class="form__group">
-        <input name="roler" type="text" required
-        placeholder="Role" class="form__input" id="exampleInputPassword1"  [(ngModel)]="register.role">
-      </div>
-      
-      <button type="submit" class="btn btn-primary" [disabled]="!regForm.valid" style="margin-bottom: 10px; background-color: rgb(6, 85, 158);">Sign Up</button>
+  <form class="form" name="myForm" #myForm="ngForm" #regForm='ngForm' (ngSubmit)='onSubmit(myForm)'>
+    <div class="form__group">
+      <input name="username" type="text" required placeholder="Username" class="form__input" id="exampleInputPassword1"
+        [(ngModel)]="register.username">
+    </div>
+
+    <div class="form__group">
+      <input name="password" type="text" required placeholder="Password" class="form__input" id="exampleInputPassword1"
+        [(ngModel)]="register.password">
+    </div>
+
+    <div class="form__group">
+      <input name="email" type="text" required placeholder="Email" class="form__input" id="exampleInputPassword1"
+        [(ngModel)]="register.email">
+    </div>
+
+    <div class="form__group">
+      <input name="roler" type="text" required placeholder="Role" class="form__input" id="exampleInputPassword1"
+        [(ngModel)]="register.role">
+    </div>
+
+    <button type="submit" class="btn btn-primary" [disabled]="!regForm.valid"
+      style="margin-bottom: 10px; background-color: rgb(6, 85, 158);">Sign Up</button>
   </form>
 </div>

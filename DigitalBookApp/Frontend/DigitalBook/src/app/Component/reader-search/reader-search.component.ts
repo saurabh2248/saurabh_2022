@@ -45,12 +45,12 @@ export class ReaderSearchComponent implements OnInit {
   }
   else
   {
-    this.message = "No Book Found!";
+    this.message = "Book not found!";
     this.message1="Please select Search type from Dropdown";
   }
   }
   alertMethod(){
-    alert("Refer My Books to read!");
+    alert("Please refer my book!");
   }
   subscribeEntity = new SubscribeEntity();
   userId:number;
@@ -64,15 +64,15 @@ export class ReaderSearchComponent implements OnInit {
      this.subscriptionService.subscribeBook(this.subscribeEntity)
      .subscribe(data =>{
        if(data === null){
-        alert("Already Subscribed");
+        alert("Already Subscribed!");
        }
        else{
-       alert("Subscribed successfully, Subscription Id "+data);
+       alert("Subscribed successfully!");
        }
      },
      err => {
       this.errorMessage = err.error.message;
-      alert("Subscription failed");
+      alert("Subscription failed!");
      }
      )
   }

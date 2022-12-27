@@ -50,7 +50,7 @@ export class ReaderSubscriptionComponent implements OnInit {
       this.errorMessage=err.error.message;
     })
     
-      alert("Please check for Subscription Status!");
+      alert("Check subscription status!");
       this.router.navigate(['readerdashboard']);
   }
 

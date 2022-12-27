@@ -25,14 +25,12 @@ authorName:string;
     this.authorService.createBook(this.book,Number(sessionStorage.getItem("authorId")))
     .subscribe(data => {
       this.bookName = data;
-      alert("Book "+this.bookName+" Created Successfully!");
+      alert("Book Created Successfully!");
     })
     f.resetForm();
     this.Created = "Created!";
   }
-  // imgCheck(){
-  //   this.bookLogo = String(this.book.bookLogo);
-  // }
+
   ngOnInit(): void {
   }
 }

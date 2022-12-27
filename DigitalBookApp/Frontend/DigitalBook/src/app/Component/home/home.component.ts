@@ -43,7 +43,7 @@ export class HomeComponent implements OnInit {
     }
   }
   guestRedirect(){
-    alert("Login Credentials (guest,password)");
+    alert("Login Credentials...");
     
   }
 }

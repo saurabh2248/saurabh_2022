@@ -10,9 +10,9 @@ import { TokenStorageService } from 'src/app/service/token-storage.service';
 })
 export class AuthorNavbarComponent implements OnInit {
 
-  username:string;
-  book:any;
-  constructor(private tokenStorage:TokenStorageService,private router:Router) { }
+  username: string;
+  book: any;
+  constructor(private tokenStorage: TokenStorageService, private router: Router) { }
 
   ngOnInit(): void {
     const user = this.tokenStorage.getUser();
@@ -23,12 +23,12 @@ export class AuthorNavbarComponent implements OnInit {
     window.location.reload();
   }
 
-  saveQueryToSessionStorage(f:NgForm){
-    sessionStorage.setItem("query",String(this.book));
+  saveQueryToSessionStorage(f: NgForm) {
+    sessionStorage.setItem("query", String(this.book));
     this.router.navigate(['authordashboard/search']);
     f.resetForm();
   }
-  onselected(value:string){
-    sessionStorage.setItem("type",value);
+  onselected(value: string) {
+    sessionStorage.setItem("type", value);
   }
 }

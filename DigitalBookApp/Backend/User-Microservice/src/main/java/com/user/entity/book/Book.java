@@ -15,7 +15,7 @@ public class Book {
 	private boolean bookActive;
 	public Book() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 	public Book(int bookId, String bookTitle, String bookCategory, int bookPrice, String bookPublisher,
 			String bookPublishedDate, String bookLogo, String bookDescription, String bookContent, boolean bookActive) {
