@@ -1,2 +1,0 @@
-user id: admin
-password: Admin12345
