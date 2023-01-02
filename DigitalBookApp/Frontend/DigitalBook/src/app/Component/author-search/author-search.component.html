@@ -13,7 +13,7 @@
             <p><span>Price - </span>
                 {{b.bookPrice | currency:'INR'}}
             </p>
-            <button type="button" class="btn btn-success" (click)="alertMethod()">Read</button>
+            <p><button type="button" class="btn btn-success" (click)="alertMethod()">Subscribe</button>&nbsp; &nbsp;&nbsp;<button type="button" class="btn btn-success" (click)="blockBook(b)">Block</button></p>
         </li>
 
     </ul>

@@ -6,9 +6,8 @@
 
 .user__header {
     text-align: center;
-    opacity: 0;
-    transform: translate3d(0, 500px, 0);
-    animation: arrive 500ms ease-in-out 0.7s forwards;
+    opacity: 1;
+   
 }
 
 .user__title {
@@ -21,17 +20,17 @@
 .form {
     margin-top: 40px;
     border-radius: 6px;
-    overflow: hidden;
-    opacity: 0;
-    transform: translate3d(0, 500px, 0);
-    animation: arrive 500ms ease-in-out 0.9s forwards;
+    overflow: visible;
+    opacity: 1;
+   
+    
 }
 
-.form--no {
+/* .form--no {
     animation: NO 1s ease-in-out;
     opacity: 1;
     transform: translate3d(0, 0, 0);
-}
+} */
 
 .form__input {
     display: block;

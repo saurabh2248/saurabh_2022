@@ -9,7 +9,9 @@
   .topnav ul {
     list-style-type:none;
   }
-  
+  a{
+    font-weight: bolder;
+  }
   img{
     margin-top: 5px;
     margin-left: 10px;

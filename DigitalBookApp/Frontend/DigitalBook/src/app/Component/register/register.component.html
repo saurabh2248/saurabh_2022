@@ -1,7 +1,7 @@
 <div class="user">
   <header class="user__header">
     <h1 class="user__title">Register</h1>
-    <h2 style="color:white; padding-top: 10px;">Please provide user details</h2>
+    <h2 style="color:rgb(15, 12, 12); padding-top: 10px;">Enter your Details</h2>
   </header>
 
   <form class="form" name="myForm" #myForm="ngForm" #regForm='ngForm' (ngSubmit)='onSubmit(myForm)'>
@@ -21,10 +21,12 @@
     </div>
 
     <div class="form__group">
-      <input name="roler" type="text" required placeholder="Role" class="form__input" id="exampleInputPassword1"
-        [(ngModel)]="register.role">
+      <select placeholder="Select Role" name="role" class="form__input" required [(ngModel)]="register.role">
+        <option value="" disabled selected>Role</option>
+        <option value="ROLE_AUTHOR">Author</option>
+        <option value="ROLE_READER">Reader</option>
+      </select>
     </div>
-
     <button type="submit" class="btn btn-primary" [disabled]="!regForm.valid"
       style="margin-bottom: 10px; background-color: rgb(6, 85, 158);">Sign Up</button>
   </form>
