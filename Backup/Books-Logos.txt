@@ -1,0 +1,249 @@
+
+{
+    "bookTitle":"This Side of Paradise",
+    "bookCategory":"Love stories",
+    "bookPrice":259,
+    "bookPublisher":"Houghton Mifflin",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/805/pg805.cover.medium.jpg",
+    "bookDescription":"Written by F.Scott Fitzgerald",
+    "bookContent":"https://www.gutenberg.org/cache/epub/805/pg805-images.html",
+    "bookActive":true
+}
+
+{
+    "bookTitle":"Northanger Abbey",
+    "bookCategory":"Love stories",
+    "bookPrice":659,
+    "bookPublisher":"Houghton Mifflin",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/121/pg121.cover.medium.jpg",
+    "bookDescription":"Written by Jane Austen",
+    "bookContent":"https://www.gutenberg.org/cache/epub/121/pg121-images.html",
+    "bookActive":true
+}
+
+
+{
+    "bookTitle":"Planet explorer",
+    "bookCategory":"Science fiction",
+    "bookPrice":959,
+    "bookPublisher":"McGraw-Hill",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/69535/pg69535.cover.medium.jpg",
+    "bookDescription":"Written by Murray Leinster",
+    "bookContent":"https://www.gutenberg.org/cache/epub/69535/pg69535-images.html",
+    "bookActive":true
+}
+
+
+{
+    "bookTitle":"Piety",
+    "bookCategory":"Science fiction",
+    "bookPrice":567,
+    "bookPublisher":"McGraw-Hill",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/69516/pg69516.cover.medium.jpg",
+    "bookDescription":"Written by Margaret St.Clair",
+    "bookContent":"https://www.gutenberg.org/cache/epub/69516/pg69516-images.html",
+    "bookActive":true
+}
+
+
+{
+    "bookTitle":"Bat Wing",
+    "bookCategory":"Crime stories",
+    "bookPrice":759,
+    "bookPublisher":"Simon Schuster",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/6382/pg6382.cover.medium.jpg",
+    "bookDescription":"Written by Sax Rohmer",
+    "bookContent":"https://www.gutenberg.org/cache/epub/6382/pg6382-images.html",
+    "bookActive":true
+}
+
+{
+    "bookTitle":"Pick a Crime",
+    "bookCategory":"Crime stories",
+    "bookPrice":399,
+    "bookPublisher":"Simon Schuster",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/51656/pg51656.cover.medium.jpg",
+    "bookDescription":"Written by Richard Rein Smith",
+    "bookContent":"https://www.gutenberg.org/cache/epub/51656/pg51656-images.html",
+    "bookActive":true
+}
+
+{
+    "bookTitle":"Northanger Abbey",
+    "bookCategory":"Horror stories",
+    "bookPrice":999,
+    "bookPublisher":"Shueisha",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/121/pg121.cover.medium.jpg",
+    "bookDescription":"Written by Jane Austen",
+    "bookContent":"https://www.gutenberg.org/cache/epub/121/pg121-images.html",
+    "bookActive":true
+}
+
+{
+    "bookTitle":"Dracula",
+    "bookCategory":"Horror stories",
+    "bookPrice":899,
+    "bookPublisher":"Shueisha",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/45839/pg45839.cover.medium.jpg",
+    "bookDescription":"Written by Bram Stoker",
+    "bookContent":"https://www.gutenberg.org/cache/epub/45839/pg45839-images.html",
+    "bookActive":true
+}
+
+
+{
+    "bookTitle":"The mill of silence",
+    "bookCategory":"Thriller",
+    "bookPrice":600,
+    "bookPublisher":"Kodansha",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/68688/pg68688.cover.medium.jpg",
+    "bookDescription":"Written by Bernard Capes",
+    "bookContent":"https://www.gutenberg.org/cache/epub/68688/pg68688-images.html",
+    "bookActive":true
+}
+
+{
+    "bookTitle":"The Lake of Wine",
+    "bookCategory":"Thriller",
+    "bookPrice":700,
+    "bookPublisher":"Kodansha",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/66415/pg66415.cover.medium.jpg",
+    "bookDescription":"Written by Bernard Capes",
+    "bookContent":"https://www.gutenberg.org/cache/epub/66415/pg66415-images.html",
+    "bookActive":true
+}
+
+
+
+{
+    "bookTitle":"The Republic",
+    "bookCategory":"Classic",
+    "bookPrice":800,
+    "bookPublisher":"Hachette",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/1497/pg1497.cover.medium.jpg",
+    "bookDescription":"Written by Plato",
+    "bookContent":"https://www.gutenberg.org/cache/epub/1497/pg1497-images.html",
+    "bookActive":true
+}
+
+{
+    "bookTitle":"The Odyssey",
+    "bookCategory":"Classic",
+    "bookPrice":500,
+    "bookPublisher":"Hachette",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/1727/pg1727.cover.medium.jpg",
+    "bookDescription":"Written by Homer",
+    "bookContent":"https://www.gutenberg.org/cache/epub/1727/pg1727-images.html",
+    "bookActive":true
+}
+
+
+{
+    "bookTitle":"The Lost World",
+    "bookCategory":"Fantasy",
+    "bookPrice":500,
+    "bookPublisher":"Pearson",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/139/pg139.cover.medium.jpg",
+    "bookDescription":"Written by Arthur Conan Doyle",
+    "bookContent":"https://www.gutenberg.org/cache/epub/139/pg139-images.html",
+    "bookActive":true
+}
+
+
+{
+    "bookTitle":"Rip Van Winkle",
+    "bookCategory":"Fantasy",
+    "bookPrice":499,
+    "bookPublisher":"Pearson",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/60976/pg60976.cover.medium.jpg",
+    "bookDescription":"Written by Washington Irving",
+    "bookContent":"https://www.gutenberg.org/cache/epub/60976/pg60976-images.html",
+    "bookActive":true
+}
+
+
+{
+    "bookTitle":"Home Fun",
+    "bookCategory":"Entertainment",
+    "bookPrice":499,
+    "bookPublisher":"Pearson",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/61685/pg61685.cover.medium.jpg",
+    "bookDescription":"Written by Cecil Henry Bullivant",
+    "bookContent":"https://www.gutenberg.org/cache/epub/61685/pg61685-images.html",
+    "bookActive":true
+}
+
+{
+    "bookTitle":"Mercenary",
+    "bookCategory":"Entertainment",
+    "bookPrice":499,
+    "bookPublisher":"Pearson",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/24370/pg24370.cover.medium.jpg",
+    "bookDescription":"Written by Mack Reynolds",
+    "bookContent":"https://www.gutenberg.org/cache/epub/24370/pg24370-images.html",
+    "bookActive":true
+}
+
+{
+    "bookTitle":"Intentions",
+    "bookCategory":"Drama",
+    "bookPrice":499,
+    "bookPublisher":"Springer",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/887/pg887.cover.medium.jpg",
+    "bookDescription":"Written by Oscar Wilde",
+    "bookContent":"https://www.gutenberg.org/cache/epub/887/pg887-images.html",
+    "bookActive":true
+}
+
+{
+    "bookTitle":"Major Barbara",
+    "bookCategory":"Drama",
+    "bookPrice":499,
+    "bookPublisher":"Springer",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/3790/pg3790.cover.medium.jpg",
+    "bookDescription":"Written by Bernard Shaw",
+    "bookContent":"https://www.gutenberg.org/cache/epub/3790/pg3790-images.html",
+    "bookActive":true
+}
+
+{
+    "bookTitle":"Satan",
+    "bookCategory":"Motivation",
+    "bookPrice":499,
+    "bookPublisher":"Springer",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/12586/pg12586.cover.medium.jpg",
+    "bookDescription":"Written by Lewis Sperry Chafer",
+    "bookContent":"https://www.gutenberg.org/cache/epub/12586/pg12586-images.html",
+    "bookActive":true
+}
+
+{
+    "bookTitle":"Famous Impostors",
+    "bookCategory":"Motivation",
+    "bookPrice":499,
+    "bookPublisher":"Springer",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/51391/pg51391.cover.medium.jpg",
+    "bookDescription":"Written by Bram Stoker",
+    "bookContent":"https://www.gutenberg.org/cache/epub/51391/pg51391-images.html",
+    "bookActive":true
+}

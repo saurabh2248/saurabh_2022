@@ -1,0 +1,168 @@
+
+
+{
+    "bookTitle":"Macbeth",
+    "bookCategory":"Drama",
+    "bookPrice":399,
+    "bookPublisher":"HarperCollins",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/2264/pg2264.cover.medium.jpg",
+    "bookDescription":"Written by William Shakespeare",
+    "bookContent":"https://www.gutenberg.org/cache/epub/2264/pg2264.html",
+    "bookActive":true
+}
+
+{
+    "bookTitle":"Hamlet",
+    "bookCategory":"Drama",
+    "bookPrice":299,
+    "bookPublisher":"Macmillan",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/2265/pg2265.cover.medium.jpg",
+    "bookDescription":"Written by William Shakespeare",
+    "bookContent":"https://www.gutenberg.org/cache/epub/2265/pg2265.html",
+    "bookActive":true
+}
+
+{
+    "bookTitle":"Romeo and Juliet",
+    "bookCategory":"Love stories",
+    "bookPrice":149,
+    "bookPublisher":"Macmillan",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/1777/pg1777.cover.medium.jpg",
+    "bookDescription":"Written by William Shakespeare",
+    "bookContent":"https://www.gutenberg.org/cache/epub/1777/pg1777.html",
+    "bookActive":true
+}
+
+{
+    "bookTitle":"Persuasion",
+    "bookCategory":"Love stories",
+    "bookPrice":149,
+    "bookPublisher":"Macmillan",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/105/pg105.cover.medium.jpg",
+    "bookDescription":"Written by Jane Austen",
+    "bookContent":"https://www.gutenberg.org/cache/epub/105/pg105-images.html",
+    "bookActive":true
+}
+
+{
+    "bookTitle":"Othello",
+    "bookCategory":"Science fiction",
+    "bookPrice":199,
+    "bookPublisher":"McGraw-Hill",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/2267/pg2267.cover.medium.jpg",
+    "bookDescription":"Written by William Shakespeare",
+    "bookContent":"https://www.gutenberg.org/cache/epub/2267/pg2267.html",
+    "bookActive":true
+}
+
+{
+    "bookTitle":"We",
+    "bookCategory":"Science fiction",
+    "bookPrice":800,
+    "bookPublisher":"McGraw-Hill",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/61963/pg61963.cover.medium.jpg",
+    "bookDescription":"Written by Evgenii Ivanovich Zamiatin",
+    "bookContent":"https://www.gutenberg.org/cache/epub/61963/pg61963-images.html",
+    "bookActive":true
+}
+{
+    "bookTitle":"Gray Lensman",
+    "bookCategory":"Science fiction",
+    "bookPrice":149,
+    "bookPublisher":"Springer",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/69584/pg69584-images.html",
+    "bookDescription":"Written by E.E.Smith",
+    "bookContent":"https://www.gutenberg.org/cache/epub/69584/pg69584-images.html",
+    "bookActive":true
+}
+{
+    "bookTitle":"Of All Things",
+    "bookCategory":"Entertainment",
+    "bookPrice":149,
+    "bookPublisher":"Kodansha",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/37660/pg37660.cover.medium.jpg",
+    "bookDescription":"Written by Robert Benchley",
+    "bookContent":"https://www.gutenberg.org/files/37660/37660-h/37660-h.htm",
+    "bookActive":true
+}
+
+{
+    "bookTitle":"Literary Lapses",
+    "bookCategory":"Motivation",
+    "bookPrice":259,
+    "bookPublisher":"Houghton Mifflin",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/67698/pg67698.cover.medium.jpg",
+    "bookDescription":"Written by Stephen Leacock",
+    "bookContent":"https://www.gutenberg.org/cache/epub/6340/pg6340-images.html",
+    "bookActive":true
+}
+
+{
+    "bookTitle":"Lifted Masks",
+    "bookCategory":"Motivation",
+    "bookPrice":259,
+    "bookPublisher":"Houghton Mifflin",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/7368/pg7368.cover.medium.jpg",
+    "bookDescription":"Written by Susan Glaspell",
+    "bookContent":"https://www.gutenberg.org/cache/epub/7368/pg7368-images.html",
+    "bookActive":true
+}
+
+{
+    "bookTitle":"Bat Wing",
+    "bookCategory":"Crime stories",
+    "bookPrice":759,
+    "bookPublisher":"Houghton Mifflin",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/6382/pg6382.cover.medium.jpg",
+    "bookDescription":"Written by Sax Rohmer",
+    "bookContent":"https://www.gutenberg.org/cache/epub/6382/pg6382-images.html",
+    "bookActive":true
+}
+
+{
+    "bookTitle":"Russian Prisons",
+    "bookCategory":"Crime stories",
+    "bookPrice":759,
+    "bookPublisher":"Houghton Mifflin",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/52937/pg52937.cover.medium.jpg",
+    "bookDescription":"Written by Arthur Griffiths",
+    "bookContent":"https://www.gutenberg.org/cache/epub/52937/pg52937-images.html",
+    "bookActive":true
+}
+
+{
+    "bookTitle":"The Wendigo",
+    "bookCategory":"Horror",
+    "bookPrice":759,
+    "bookPublisher":"Houghton Mifflin",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/10897/pg10897.cover.medium.jpg",
+    "bookDescription":"Written by Algernon Blackwood",
+    "bookContent":"https://www.gutenberg.org/cache/epub/10897/pg10897-images.html",
+    "bookActive":true
+}
+
+{
+    "bookTitle":"Dracula",
+    "bookCategory":"Horror",
+    "bookPrice":759,
+    "bookPublisher":"Houghton Mifflin",
+    "bookPublishedDate":"",
+    "bookLogo":"https://www.gutenberg.org/cache/epub/45839/pg45839.cover.medium.jpg",
+    "bookDescription":"Written by Bram Stoker",
+    "bookContent":"https://www.gutenberg.org/cache/epub/45839/pg45839-images.html",
+    "bookActive":true
+}
+
